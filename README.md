@@ -1,5 +1,5 @@
 **Assistente Delivery - AWS**
-Esse projeto tem a finalidade da criação de uma assistente de IA focada em delivery, sendo totalmente realizada pela Cloud AWS.
+- Esse projeto tem a finalidade da criação de uma assistente de IA focada em delivery, sendo totalmente realizada pela Cloud AWS.
 
 ---
 
@@ -26,6 +26,15 @@ Esse projeto tem a finalidade da criação de uma assistente de IA focada em del
 ---
 
 ## Diagrama do Fluxo (Step Functions)
-![Fluxo do Step Functions](Setep Function.png)
+![Fluxo do Step Functions](./Setep%20Function.png)
+
+---
+
+## Como Executar
+
+1. Copie o código JSON do arquivo `CódigoAssistenteDelivery.json` presente neste repositório.
+2. No console da AWS, vá até o **AWS Step Functions** e crie uma nova State Machine.
+3. Cole o código JSON no editor de definição.
+4. Inicie a execução enviando um payload de teste com os dados do pedido.
 
 ---
