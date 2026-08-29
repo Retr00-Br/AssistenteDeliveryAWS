@@ -1,4 +1,4 @@
-*Assistente Delivery - AWS*
+**Assistente Delivery - AWS**
 Esse projeto tem a finalidade da criação de uma assistente de IA focada em delivery, sendo totalmente realizada pela Cloud AWS.
 
 ---
@@ -22,5 +22,10 @@ Esse projeto tem a finalidade da criação de uma assistente de IA focada em del
 5. **`NotificarCozinha` (`Task`)**: Publica o pedido pronto para produção em um tópico SNS.
 6. **`AguardarPreparo` (`Wait`)**: Aguarda a sinalização/tempo de preparo.
 7. **`AtualizarStatusEntrega` (`Task`)**: Grava a atualização do pedido na tabela DynamoDB.
+
+---
+
+## Diagrama do Fluxo (Step Functions)
+![Fluxo do Step Functions](Setep Function.png)
 
 ---
